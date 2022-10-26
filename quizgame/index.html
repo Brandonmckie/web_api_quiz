@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="/Web_API_Codequiz/Web_API_Codequiz/quizgame/style.css">
+</head>
+
+<body>
+    <!-- outer div -->
+    <div class="outerContainer">
+        <!-- topbar div -->
+        <div class="topbar">
+            <button class="highScoreBttn" id="highScoreBttn"> View Highscore</button>
+            <p class="timer" id="timer">Timer: 1:00</p>
+            <!-- <p id="score">Your score is </p> -->
+        </div>
+
+        <!-- inner div -->
+        <div class="innerContainer" id="innerContainer">
+            <!-- quiz header  div -->
+            <header class="quizHeader">
+                <h1>Coding Quiz Challenge</h1>
+            </header>
+
+            <!-- main content -->
+            <section class="quizMain">
+                <p>Try to answer the following code-related questions within the time limit.
+                    Keep in mind that incorrect answerswill penalize your score/time
+                    by ten seconds!
+                </p>
+                <button class="startBttn" id="start-Bttn">Start Quiz</button>
+            </section>
+        </div>
+
+
+        <!-- ---------- -->
+        <!-- phase 2--- -->
+        <main id="mainQs">
+            <header class="mainQuestion" id="main-Question">
+                <h1 id="quizQuestions">This is the question?</h1>
+            </header>
+
+
+            <section class="mutliAnswers">
+                <ul>
+                    <li><button class='answerBttn' id="answer-Bttn-1" data-number='1'>Answer 1</button></li>
+                    <li><button class='answerBttn' id="answer-Bttn-2" data-number='2'>Answer 2</button></li>
+                    <li><button class='answerBttn' id="answer-Bttn-3" data-number='3'>Answer 3</button></li>
+                    <li><button class='answerBttn' id="answer-Bttn-4" data-number='4'>Answer 4</button></li>
+                </ul>
+                <p class="right-wrong" id="rightWong"></p>
+            </section>
+
+            <!-- ----------- -->
+            <!-- ---pahse 3- -->
+            <section class="quiz-finish-screen" id="quiz-finish-screen">
+                <header class="finish-screen-header">
+                    <h2>All Done!</h2>
+                </header>
+
+
+                <section class="finsh-screen-userinput">
+                    <p id="score">Your score is </p>
+                    <p>Enter initials: <input type="text"><button class="submitBttn">Submit</button></p>
+                </section>
+            </section>
+
+        </main>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="/Web_API_Codequiz/Web_API_Codequiz/quizgame/script.js"></script>
+</body>
+
+</html>

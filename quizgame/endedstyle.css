@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highScoreBttn {
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+}
+
+.timer {
+    padding-right: 2%;
+}
+
+.outerContainer {
+    height: 100vh;
+    padding: 10px;
+}
+
+.innerContainer-2 {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10rem;
+}
+
+.finished-header {
+    display: flex;
+    /* justify-content: center; */
+    font-size: 1.3rem;
+    padding-bottom: 1.5%;
+}
+
+.finished-main {
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}
+
+.submitBttn {
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1.5%;
+    margin: 1.5%;
+}
+
+.submitBttn:hover {
+    cursor: pointer;
+    background-color: rgb(41, 41, 212);
+}
+
+input {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 9rem;
+    /* border-radius: 1rem; */
+    margin: 1rem;
+    padding-inline-start: 1rem;
+}
+
+#score-record {
+    padding: 1rem;
+}
